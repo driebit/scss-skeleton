@@ -8,10 +8,10 @@
         "url": "https://gitlab.driebit.nl/driebit/scss-skeleton.git"
     },
     "dependencies": {
-        "modularscale-sass": "^3.0.3",
-        "node-sass": "^4.5.1",
         "autoprefixer": "^6.7.4",
         "breakpoint-sass": "^2.7.1",
+        "modularscale-sass": "^3.0.3",
+        "node-sass": "^4.9.0",
         "normalize.css": "^7.0.0"
     }
 }
