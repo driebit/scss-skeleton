@@ -22,12 +22,12 @@ distclean: clean
 
 help:
 	@echo "Run: make <target> where <target> is one of the following:"
-	@echo "  all                    Compile all Elm files"
+	@echo "  all                    Compile all Scss files"
 	@echo "  clean                  Remove 'dist' folder"
 	@echo "  deps                   Install build dependencies"
 	@echo "  distclean              Remove build dependencies"
 	@echo "  help                   Magic"
-	@echo "  watch                  Run 'make all' on Elm file change"
+	@echo "  watch                  Run 'make all' on Scss file change"
 
 watch:
 	find src -name '*.scss' | entr make all
